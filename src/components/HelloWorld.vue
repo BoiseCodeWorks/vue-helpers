@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1 @mouseenter="showModal = true">{{ msg }}</h1>
+    <h1 @click="showModal = true">{{ msg }}</h1>
     <quick-modal class="bg-dark text-light" :toggle="showModal" @close="showModal = false">
       <img src="//placehold.it/500x800" alt="">
     </quick-modal>
